@@ -1,0 +1,13 @@
+body{
+    background-color: #56686d;
+}
+
+body img {
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 1700px;
+   height: 1600px;
+}
+
+/* Nav Bar */
