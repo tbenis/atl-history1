@@ -1,0 +1,90 @@
+body{
+    background-color: #56686d;
+    font-family: 'Quintessential', cursive;
+    /* font-family: 'EB Garamond', serif;
+    font-family: 'Licorice', cursive;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Quintessential', cursive;
+    font-family: 'The Nautigal', cursive; */
+}
+
+body img {
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 1700px;
+   height: 1600px;
+}
+
+/* Nav Bar */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 20px;
+  overflow: hidden;
+  background-color: #eb9878;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+li a:hover {
+  /* background-color: rgb(248, 232, 201); */
+  text-decoration: underline;
+}
+
+/* Picture elements */
+#capitol a {
+    position: absolute;
+    left: 1100px;
+    top: 850px;
+    border: darkcyan;
+    border-radius: 75%;
+}
+
+#civilplace a {
+    position: absolute;
+    left: 750px;
+    top: 1240px;
+}
+
+#civilplace a .innerDivPic{
+        border: 4px solid blue;
+    height: 40px;
+    width: 40px;
+    border-radius: 75%;
+}
+
+#cocacola a {
+    position: absolute;
+    left: 490px;
+    top: 1020px;
+}
+
+#mlkhouse a {
+    position: absolute;
+    left: 980px;
+    top: 930px;
+}
+
+#stone-mountain a {
+    position: absolute;
+    left: 1350px;
+    top: 1015px;
+}
+
+#swanhouse a {
+    position: absolute;
+    left: 1100px;
+    top: 1500px;
+}
