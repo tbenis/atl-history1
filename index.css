@@ -16,32 +16,7 @@ body{
    height: 100%;
 }
 
-/* Nav Bar */
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 20px;
-  overflow: hidden;
-  background-color: #eb9878;
-}
 
-li {
-  float: right;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 30px;
-}
-
-li a:hover {
-  background-color: rgb(248, 232, 201);
-  text-decoration: underline;
-}
 
 /* Picture elements */
 #capitol a {
