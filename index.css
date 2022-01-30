@@ -1,5 +1,11 @@
 body{
     background-color: #56686d;
+    font-family: 'Quintessential', cursive;
+    /* font-family: 'EB Garamond', serif;
+    font-family: 'Licorice', cursive;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Quintessential', cursive;
+    font-family: 'The Nautigal', cursive; */
 }
 
 body img {
@@ -11,3 +17,53 @@ body img {
 }
 
 /* Nav Bar */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 20px;
+  overflow: hidden;
+  background-color: #eb9878;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+li a:hover {
+  /* background-color: rgb(248, 232, 201); */
+  text-decoration: underline;
+}
+
+/* Picture elements */
+#capitol a {
+    position: relative;
+    left: 1100px;
+    top: 850px;
+}
+
+#civilplace a {
+    position: relative;
+    left: 1100px;
+    top: 850px;
+}
+
+#cocacola a {
+    position: relative;
+    left: 1100px;
+    top: 850px;
+}
+
+#mlkhouse a {
+    position: relative;
+    left: 1100px;
+    top: 850px;
+}
