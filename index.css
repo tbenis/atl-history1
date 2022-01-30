@@ -52,18 +52,30 @@ li a:hover {
 
 #civilplace a {
     position: relative;
-    left: 1100px;
-    top: 850px;
+    left: 750px;
+    top: 1240px;
 }
 
 #cocacola a {
     position: relative;
-    left: 1100px;
-    top: 850px;
+    left: 490px;
+    top: 1020px;
 }
 
 #mlkhouse a {
     position: relative;
+    left: 980px;
+    top: 930px;
+}
+
+#stone-mountain a {
+    position: relative;
+    left: 1350px;
+    top: 1015px;
+}
+
+#swanhouse a {
+    position: relative;
     left: 1100px;
-    top: 850px;
+    top: 1500px;
 }
