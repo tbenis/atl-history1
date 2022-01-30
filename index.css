@@ -8,12 +8,12 @@ body{
     font-family: 'The Nautigal', cursive; */
 }
 
-body img {
-  display: block;
+#main-img { /* Changed */
+   display: block;
    margin-left: auto;
    margin-right: auto;
-   width: 1700px;
-   height: 1600px;
+   width: 100%; /* Benis: Making image responsive */
+   height: 100%;
 }
 
 /* Nav Bar */
