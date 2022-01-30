@@ -7,6 +7,7 @@ ul {
     padding: 20px;
     overflow: hidden;
     background-color: #eb9878;
+    font-family: 'Quintessential', cursive;
   }
   
   li {
@@ -19,10 +20,35 @@ ul {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 40px;
+    font-family: 'Quintessential', cursive;
   }
   
   li a:hover {
     background-color: rgb(248, 232, 201);
     text-decoration: underline;
   }
+
+
+  /* text */
+
+  body{
+    background-color: #56686d;
+    font-family: 'Quintessential', cursive;
+    /* font-family: 'EB Garamond', serif;
+    font-family: 'Licorice', cursive;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Quintessential', cursive;
+    font-family: 'The Nautigal', cursive; */
+}
+
+p {
+  font-family: 'Quintessential', cursive;
+  text-align: center;
+  color: white;
+  font-size: 35px;
+}
+
+body img {
+  float: left;
+}
