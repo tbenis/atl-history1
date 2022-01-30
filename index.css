@@ -151,3 +151,9 @@ body{
     margin-top: auto;
     margin-bottom: auto;
 }
+
+/* about section */
+#flexbox {
+    display: grid;
+    grid-column: auto;
+}
