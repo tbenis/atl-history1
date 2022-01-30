@@ -26,7 +26,7 @@ ul {
 }
 
 li {
-  float: left;
+  float: right;
 }
 
 li a {
@@ -45,37 +45,46 @@ li a:hover {
 
 /* Picture elements */
 #capitol a {
-    position: relative;
+    position: absolute;
     left: 1100px;
     top: 850px;
+    border: darkcyan;
+    border-radius: 75%;
 }
 
 #civilplace a {
-    position: relative;
+    position: absolute;
     left: 750px;
     top: 1240px;
 }
 
+#civilplace a .innerDivPic{
+        border: 4px solid blue;
+    height: 40px;
+    width: 40px;
+    border-radius: 75%;
+}
+
 #cocacola a {
-    position: relative;
+    position: absolute;
     left: 490px;
     top: 1020px;
 }
 
 #mlkhouse a {
-    position: relative;
+    position: absolute;
     left: 980px;
     top: 930px;
 }
 
 #stone-mountain a {
-    position: relative;
+    position: absolute;
     left: 1350px;
     top: 1015px;
 }
 
 #swanhouse a {
-    position: relative;
+    position: absolute;
     left: 1100px;
     top: 1500px;
 }
